@@ -1,6 +1,8 @@
-O programa identifica os números 0 e 5 do conjunto de dados MNIST utilizando um algoritmo de Rede Neural Convolucional.
+O programa identifica os números 0 e 5 do conjunto de dados MNIST utilizando um algoritmo de Rede Neural Convolucional, além de bibliotecas como Keras, TensorFlow, Sklearn e Numpy.
 Para isso, o conjunto de dados é normalizado e reordenado, de forma que seja possível modificar a proprção de amostras para treino e teste, além de permitir a aplicação da técnica de validação cruzada.
+
 Por se tratar de um conjunto de dados relativamente simples, técnicas de data augmentation e otimização de hiperparâmetros não foram aplicadas, já que o modelo se mostrou robusto apenas com a normalização dos dados e a aplicação da validação cruzada.
+
 A ideia geral do programa pe transformar essa classificação multiclasse em uma classificação binária, onde as imagens com dígito 0 e 5 são rotuladas com "1", sinalizando a classe de interesse.
 
 O programa foi desenvolvido no ambiente Google Colab com a linguagem Python, facilitando a visualização das imagens durante a construção do modelo. 
