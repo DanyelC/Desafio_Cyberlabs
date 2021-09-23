@@ -5,6 +5,6 @@ Por se tratar de um conjunto de dados relativamente simples, técnicas de data a
 
 A ideia geral do programa pe transformar essa classificação multiclasse em uma classificação binária, onde as imagens com dígito 0 e 5 são rotuladas com "1", sinalizando a classe de interesse.
 
-O programa foi desenvolvido no ambiente Google Colab com a linguagem Python, facilitando a visualização das imagens durante a construção do modelo. 
+O programa foi desenvolvido no ambiente Google Colab, https://colab.research.google.com/drive/1o5txnZiNYXfwjhikOJQQsIe5aRbsbwcy, com a linguagem Python3, facilitando a visualização das imagens durante a construção do modelo. 
 
 Para testar o programa utilizando Python3, basta instalar as bibliotecas necessárias pelo comando "pip3 install -r requirements.txt" e rodar o programa com o comando "python3 desafio_cyberlabs.py"
