@@ -4,6 +4,9 @@ Para isso, o conjunto de dados é normalizado e reordenado, de forma que seja po
 Por se tratar de um conjunto de dados relativamente simples, técnicas de data augmentation e otimização de hiperparâmetros não foram aplicadas, já que o modelo se mostrou robusto apenas com a normalização dos dados e a aplicação da validação cruzada.
 
 A ideia geral do programa pe transformar essa classificação multiclasse em uma classificação binária, onde as imagens com dígito 0 e 5 são rotuladas com "1", sinalizando a classe de interesse.
+O modelo gerado consiste numa Rede Neural Convolucional, treinada em 5 épocas com tamanho do lote 128, além da aplicação da técnica de validação cruzada kfold com k = 5.
+Os resultados mostram que o modelo criado é eficiente, atingindo mais de 98% de acurácia e demais métricas, mostrando que o modelo aprendeu corretamente a classificar os números 0 e 5.
+O uso da técnica de validação cruazada somada à camada de dropout dentro da rede diminui a probabilidade de ocorrência de sobreajuste do modelo, garantindo que não houve vazamento de dados de teste durante o treinamento do modelo.
 
 O programa foi desenvolvido no ambiente Google Colab, https://colab.research.google.com/drive/1o5txnZiNYXfwjhikOJQQsIe5aRbsbwcy, com a linguagem Python3, facilitando a visualização das imagens durante a construção do modelo. 
 
