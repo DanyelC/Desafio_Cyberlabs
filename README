@@ -7,4 +7,4 @@ A ideia geral do programa pe transformar essa classificação multiclasse em uma
 
 O programa foi desenvolvido no ambiente Google Colab com a linguagem Python, facilitando a visualização das imagens durante a construção do modelo. 
 
-Para testar o programa utilizando Python3, basta instalar as bibliotecas necessárias pelo comando "pip3 install -r requirements.txt"
+Para testar o programa utilizando Python3, basta instalar as bibliotecas necessárias pelo comando "pip3 install -r requirements.txt" e rodar o programa com o comando "python3 desafio_cyberlabs.py"
